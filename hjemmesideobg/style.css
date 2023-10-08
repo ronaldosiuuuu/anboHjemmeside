@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color:white;
+    border: 1px solid black;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    gap: 10px;
+    height: 10vh;
+}
+
+.logo{
+    height: 258px;
+    width: 184px;
+}
+
+.items a{
+padding: 20px;
+text-decoration: none;
+font-style: normal;
+font-weight: 200;
+font-size: 2rem;
+color: black;
+
+}
+
+.container-Home {
+    background: linear-gradient(180deg, #FFFFFD 0%, rgba(4, 4, 2, 0.354167) 44.27%, rgba(255, 255, 245, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.Border-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color:#FFF96A;
+    border-radius: 263.5px;
+    border: 1px solid black;
+    width: 1318px;
+    height: 469px;
+    margin-top: 75px;
+}
+
+
+.text-center{
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+.CV{
+   text-align: center; 
+   font-size: 2rem;
+}
+.CV a{
+    text-decoration: none;
+    color:blue;
+}
+
+.CV a:hover{
+    text-decoration: underline;
+}
+
+.container-section{
+    display: flex;
+    height: 120vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;    
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(174, 164, 164, 0.901042) 50%, rgba(20, 20, 0, 0) 100%);;
+}
+
+
+.card-1{
+    border-radius: 20%;
+    border: 1px solid black;
+}
+
+p{
+    text-align: center;
+    font-style: bold;
+    font-size: 2rem;
+}
+
+.logo1{
+    width: 365px;
+    height: 353px;
+}
+ul{
+    text-align: center;
+    list-style: none;
+}
+.card-2{
+    border-radius: 20%;
+    border:1px solid black;
+}
+
+.logo2{
+width: 353px;
+height: 352px;
+}
+
+.card-3{
+    border-radius: 20%;
+    border: 1px solid black;
+}
+.logo3{
+    width: 353px;
+    height: 353px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Work-address{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.Email{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.Links{
+    text-align: center;
+}
+
+@media (max-width: 1200px)
+{
+ .container-section{
+    display: flex;
+    flex-direction: column;
+ }
+ .text-center{
+    font-size: 1.2rem;
+ }
+
+ .footer-container{
+    display: flex;
+    justify-content: baseline;
+    flex-grow: 1;
+    margin-top: 250%;
+ }
+}
+
+
+
+
+
+
+
+
